@@ -1,5 +1,8 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import unittest
-from Calculadora import Calculadora
+from src.calculadora import Calculadora
 
 class test_unidade(unittest.TestCase):
     
