@@ -62,7 +62,11 @@ class test_unidade(unittest.TestCase):
         self.assertIn("4 * 5 = 20", calc.historico)
 
     # teste de inicializacao
-    
+    def test_inicializacao(self):
+        calc = Calculadora()
+        self.assertEqual(calc.resultado, 0)
+        self.assertEqual(len(calc.historico), 0)
+        
     #teste de modificacao de dados
     def test_modificacao_historico(self):
         calc = Calculadora()
