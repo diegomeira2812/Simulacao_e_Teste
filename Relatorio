@@ -1,0 +1,24 @@
+# Relatório de Testes
+
+## Resultados
+- Total de testes executados: 17
+- Testes passados: 17
+- Testes falhados: 0
+- Testes com erro: 0
+
+## Cobertura de código
+Name                       Stmts   Miss  Cover
+----------------------------------------------
+src\calculadora.py            46      0   100%
+tests\test_integracao.py      33      1    97%
+tests\test_unidade.py         87      1    99%
+----------------------------------------------
+TOTAL                        166      2    99%
+
+## Problemas encontrados e correções aplicadas
+- Nenhum problema encontrado.
+
+
+## Lições aprendidas
+- A criação de testes de unidade e integração garante maior confiança no código.
+- O uso de ferramentas como "unittest" e "coverage.py" ajuda a identificar falhas e medir a cobertura dos testes.
